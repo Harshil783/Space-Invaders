@@ -1,6 +1,5 @@
 from ships import *
 
-
 def main():
     FPS = 60
     run = True

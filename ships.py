@@ -5,9 +5,10 @@ import pygame
 pygame.font.init()
 
 # Main window
+VERSION = "1.0"
 WIDTH, HEIGHT = 750, 750
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Space Invader tutorial")
+pygame.display.set_caption("Space Invaders")
 
 # loading images
 RED_SPACE_SHIP = pygame.image.load(
@@ -32,6 +33,7 @@ YELLOW_LASER = pygame.image.load(
 # Background images
 BG = pygame.transform.scale(pygame.image.load(os.path.join(
     "assets/", "background-black.png")), (WIDTH, HEIGHT))
+
 
 
 class Ship:
