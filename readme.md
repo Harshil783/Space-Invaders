@@ -2,7 +2,7 @@
 
 Space Invaders is a popular game, here its implemented in python.
 
-![]()
+![](Space_invaders.png)
 
 ## Installation
 
