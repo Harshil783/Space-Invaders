@@ -1,6 +1,4 @@
----------------------------------------------------------------------------------
-Space Invaders by Harshil Pandey
----------------------------------------------------------------------------------
+# Space Invaders
 
 + First Time Game Running
     - Run the dependencies.py
